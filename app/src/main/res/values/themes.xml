@@ -15,7 +15,7 @@
     </style>
 
     <style name="sneakersTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:windowBackground">@drawable/sneakers</item>
+        <item name="android:windowBackground">@drawable/workout</item>
         <item name="android:windowFullscreen">true</item>
     </style>
 </resources>

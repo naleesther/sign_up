@@ -3,7 +3,7 @@
 <item>
     <bitmap
         android:gravity="fill"
-        android:src="@drawable/sneakers" />
+        android:src="@drawable/workout" />
 
 
 </item>
