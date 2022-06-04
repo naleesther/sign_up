@@ -3,5 +3,6 @@
     <string name="email">Email</string>
     <string name="password">password</string>
     <string name="login">Login</string>
-    <string name="sign_up">Don\'t have an account? <u>Sign Up</u></string>
+    <string name="Log_in">Already have an account?<u>Login</u></string>
+    <string name="Sign_up">Don\'t have an account?<u>SignUp</u></string>
 </resources>
