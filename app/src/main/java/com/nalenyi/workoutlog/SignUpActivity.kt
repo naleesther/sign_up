@@ -47,6 +47,7 @@ class SignUpActivity : AppCompatActivity() {
         }
         btnSignup.setOnClickListener { validateSignup() }
 
+
     }
 
         fun validateSignup() {
