@@ -3,6 +3,7 @@ package com.nalenyi.workoutlog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Patterns
 import android.widget.Button
 import android.widget.TextView
 import com.google.android.material.textfield.TextInputEditText
@@ -55,6 +56,10 @@ class SignUpActivity : AppCompatActivity() {
                 tilEmail.error = "Email is required"
                 error = true
             }
+            if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                tilEmail.error = "Not a valid email address"
+                error = true
+            }
             var password = etPassword.text.toString()
             if (password.isBlank()) {
                 tilPassword.error = "Password is required"
@@ -75,7 +80,11 @@ class SignUpActivity : AppCompatActivity() {
                 tilConfirmPassword.error = "Confirm is required"
                 error = true
             }
-//            if (error!=true){}
+            if (password !=confirmpassword){
+                tilConfirmPassword.error="Wrong Password"
+            }
+
+
         }
 
     }
