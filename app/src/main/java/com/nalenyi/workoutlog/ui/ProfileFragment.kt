@@ -1,22 +1,24 @@
-package com.nalenyi.workoutlog
+package com.nalenyi.workoutlog.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.nalenyi.workoutlog.R
 
 
-class TrackFragment : Fragment() {
+class ProfileFragment : Fragment() {
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
-        return inflater.inflate(R.layout.fragment_track, container, false)
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_profile, container, false)
     }
+
+
+
 }
-
-
-
 
